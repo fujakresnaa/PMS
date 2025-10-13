@@ -1,0 +1,261 @@
+{
+    "id": null,
+    "name": "Marketing",
+    "detail": [
+        {
+            "id": null,
+            "detail": { 
+                "id": 1,
+                "name": "Home"
+            }
+        },
+        {
+            "id": null,
+            "detail": { 
+                "id": 29,
+                "name": "Dashboard"
+            },
+            "children": [
+                {
+                    "id": null,
+                    "detail": { 
+                        "id": 30,
+                        "name": "Marketing"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 31,
+                        "name": "PurchasingSupplyChain"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 32,
+                        "name": "Warehouse"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 33,
+                        "name": "ProductionPlanning"
+                    }
+                }
+            ]
+        },
+        {
+            "id": null,
+            "detail": { 
+                "id": 34,
+                "name": "MarketingModules"
+            },
+            "children": [
+                {
+                    "id": null,
+                    "detail": { 
+                        "id": 17,
+                        "name": "Customers"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 27,
+                        "name": "Products"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 35,
+                        "name": "ProspectMarineForms"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 26,
+                        "name": "Quotations"
+                    }
+                }
+            ]
+        },
+        {
+            "id": null,
+            "detail": { 
+                "id": 36,
+                "name": "PurchasingAndSupplyChain"
+            },
+            "children": [
+                {
+                    "id": null,
+                    "detail": { 
+                        "id": 25,
+                        "name": "VendorGroups"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 24,
+                        "name": "Vendors"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 37,
+                        "name": "VendorRegistrations"
+                    }
+                }
+            ]
+        },
+        {
+            "id": null,
+            "detail": { 
+                "id": 28,
+                "name": "MasterData"
+            },
+            "children": [
+                {
+                    "id": null,
+                    "detail": { 
+                        "id": 10,
+                        "name": "Countries"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 11,
+                        "name": "Provinces"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 12,
+                        "name": "Cities"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 13,
+                        "name": "ClassSocieties"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 14,
+                        "name": "Departments"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 18,
+                        "name": "QuestionnaireGroups"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 19,
+                        "name": "Questionnaires"
+                    }
+                }, {
+                    "id": null,
+                    "detail": { 
+                        "id": 20,
+                        "name": "QuestionnaireSections"
+                    }
+                }
+            ]
+        },
+        {
+            "id": null,
+            "detail": { 
+                "id": 38,
+                "name": "Setting"
+            },
+            "children": [
+                {
+                    "id": null,
+                    "detail": { 
+                        "id": 42,
+                        "name": "GeneralConfigurations"
+                    }
+                },
+                {
+                    "id": null,
+                    "detail": { 
+                        "id": 39,
+                        "name": "UserManagement"
+                    },
+                    "children": [
+                        {
+                            "id": null,
+                            "detail": { 
+                                "id": 5,
+                                "name": "Permissions"
+                            }
+                        }, {
+                            "id": null,
+                            "detail": { 
+                                "id": 6,
+                                "name": "Roles"
+                            }
+                        }, {
+                            "id": null,
+                            "detail": { 
+                                "id": 3,
+                                "name": "Users"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": null,
+                    "detail": { 
+                        "id": 40,
+                        "name": "MenuManagement"
+                    },
+                    "children": [
+                        {
+                            "id": null,
+                            "detail": { 
+                                "id": 7,
+                                "name": "MenuItems"
+                            }
+                        }, {
+                            "id": null,
+                            "detail": { 
+                                "id": 8,
+                                "name": "MasterMenus"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": null,
+                    "detail": { 
+                        "id": 41,
+                        "name": "ModuleManagement"
+                    },
+                    "children": [
+                        {
+                            "id": null,
+                            "detail": { 
+                                "id": 15,
+                                "name": "ParameterGroups"
+                            }
+                        }, {
+                            "id": null,
+                            "detail": { 
+                                "id": 16,
+                                "name": "Parameters"
+                            }
+                        }, {
+                            "id": null,
+                            "detail": { 
+                                "id": 16,
+                                "name": "ProspectPhaseMapping"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
