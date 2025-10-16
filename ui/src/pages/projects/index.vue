@@ -38,8 +38,9 @@
         </div>
 
       </div>
-
+      <div v-if="rules.permission.create" class="action animated zoomIn" ></div>
       <div class="q-pa-md">
+        <q-btn @click="add" unelevated color="primary" class="capital  mr-1 ml-1" icon="add" label="Add" />
         <q-table class=" th-lg "
           grid
           :data="table.data"

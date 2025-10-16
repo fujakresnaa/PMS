@@ -3,13 +3,15 @@
 namespace App\Http\Controllers;
 
 use Exception;
-use Validator;
+use Illuminate\Support\Facades\Validator;
 use App\Exports\ExportFromArray;
 use Illuminate\Http\Request;
 use App\Repositories\PermissionsRepository;
 use App\Providers\HelperProvider;
 use App\Providers\AuthProvider;
 use Maatwebsite\Excel\Facades\Excel;
+
+
 
 class PermissionsController extends Controller
 {
